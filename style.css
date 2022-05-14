@@ -1,0 +1,23 @@
+h3{
+    font-size: 30px !important;
+}
+button{
+    font-size: 23px !important;
+    background-color: yellow;
+}
+button:hover{
+    background-color: red;
+    color: aqua;
+}
+canvas{
+    margin-top: 100px;
+    border: 5px solid black;
+
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 2px 2px 40px rgb(255, 255, 255);}
+    to{box-shadow: 2px 2px 40px rgb(255, 255, 255);}
+}
